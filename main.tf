@@ -2,14 +2,14 @@
 // TERRAFORM INPUT VARIABLES Does
 // --------------------------
 variable "animals" {
-    type    = "list"
+    type    = list(string)
     default = [
       "elephant",
       "rhinoceros",
       "buffalo",
       "lion",
-      "leo-the-leopard",
-      "zebra",
+      #"leo-the-leopard",
+      #"zebra",
       #"giraffe",
       #"cheetah",
       #"meerkat",
