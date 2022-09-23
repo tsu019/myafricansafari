@@ -2,7 +2,7 @@
 // TERRAFORM INPUT VARIABLES Does
 // --------------------------
 variable "animals" {
-    type    = "list"
+    type    = list(string)
     default = [
       "elephant",
       "rhinoceros",
