@@ -8,7 +8,7 @@ variable "animals" {
       "rhinoceros",
       "buffalo",
       "lion",
-      "leo-the-leopard",
+      #"leo-the-leopard",
       #"zebra",
       #"giraffe",
       #"cheetah",
