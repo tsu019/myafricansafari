@@ -11,7 +11,7 @@ variable "animals" {
       "leo-the-leopard",
       "zebra",
       "giraffe",
-      #"cheetah",
+      "cheetah",
       #"meerkat",
       #"hyena"
     ]
