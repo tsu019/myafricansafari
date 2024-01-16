@@ -10,7 +10,7 @@ variable "animals" {
       "lion",
       "leo-the-leopard",
       "zebra",
-      "giraffe",
+      #"giraffe",
       #"cheetah",
       #"meerkat",
       #"hyena"
@@ -22,7 +22,7 @@ variable "animals" {
 // -------------------------------------------------------------------------------------------------------------------
 resource "random_shuffle" "potato" { //random_shuffle is a resource from a provider. This has to have a unique name attached to the resource provider name
   input = "${var.animals}"
-  result_count = 1
+  result_count = 2
   keepers = { // I want a new name everytime the time changes, because if I don't define it as a keeper. Keep the value of the result everytime the time changes.
     # Generate a new id whenever the provisioning time changes
     timemeasurementofthemoment = "${timestamp()}"

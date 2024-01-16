@@ -10,8 +10,7 @@ allowed_animals = [
     "elephant",
     "rhinoceros",
     "buffalo",
-    "lion",
-    "leopard",
+    "lion"
 ]
 
 // --------------
